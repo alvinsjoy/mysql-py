@@ -38,5 +38,4 @@ CAUTION :-
 	The .exe file will take some time to run; so be PATIENT.
 
 CREDITS :-
-========= 
-        To an unknown website. Here's (their original code)[https://drive.google.com/drive/folders/1-mrKDr_YoaL9Hv5sfOn9cMjiWHj4DxGx]
+        To an unknown website. Here's [their original code](https://drive.google.com/drive/folders/1-mrKDr_YoaL9Hv5sfOn9cMjiWHj4DxGx)
