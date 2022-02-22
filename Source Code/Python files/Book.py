@@ -46,20 +46,7 @@ def add_stock() :
     stock = int(input("Enter the Quantity purchased : "))
     __cur.execute("insert into stock values ({} , '{}' , '{}' , '{}' , {} , {} , {} , '{}')".format(bno , bname , auth , publ , cost , stock , 0, __dt.date.today()))
     print("Inserted Sucessfully !!!")
-    
-
-        
-def add_user() :
-    user = input("Enter the user name : ")
-    passwd = input("Enter a Password : ")
-    passwd2 = input("Enter Password to confirm : ")
-    if passwd == passwd2 :
-        __cur.execute("insert into users values('{}' , '{}')".format(user , passwd))
-        print("Created Successfully!!!")
-    elif passwd != passwd2 : print("You've entered different passwords")
-    
-
-        
+            
 def sell_book() :
     print('Purchase')
     cname = input("Enter the Customer Name : ")
@@ -108,16 +95,8 @@ def view_sales () :
     plt.xlabel('Books')
     plt.ylabel('Sales')
     plt.title('Sales')
-    plt.show()    
-
+    plt.show()
     
-def login():
-    user = input("Enter the username : ")
-    pwd = input("Enter the password : ")
-    __cur.execute("select * from users where username = '{}' and password = '{}'".format(user , pwd))
-    return bool(__cur.rowcount)
-
-
 def update_stock() :
     bno = int(input("Enter the book number : "))
     __cur.execute("select Book_Name , Available_Stock from stock where Book_No = {}".format(bno))
