@@ -1,6 +1,6 @@
 import Book 
 C='y'
-while C.lower() == 'y' :
+while C.lower()=='y' :
         Book.clrscreen()
         print("Book Shop Management".center(89 , '='))
         print("1. Book Stock")
