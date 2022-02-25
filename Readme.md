@@ -37,5 +37,5 @@ CAUTION :-
 	   
 	The .exe file will take some time to run; so be PATIENT. (ps. I removed the .exe files see the unedited code for more info)
 
-### CREDITS :-
+CREDITS :-
         To an unknown website. Here's [their original code](https://drive.google.com/drive/folders/1-mrKDr_YoaL9Hv5sfOn9cMjiWHj4DxGx)
