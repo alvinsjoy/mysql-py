@@ -49,4 +49,4 @@ while C.lower() == 'y' :
             print("Good Bye")
             break
         else : print("INVALID CHOICE")
-        C = input("Do you want to continue (y/[n]) : ")
+        C = input("Do you want to continue (y/n) : ")
