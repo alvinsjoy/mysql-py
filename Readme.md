@@ -1,8 +1,6 @@
-Book Stall Management :-
--------------------------------------
+# Book Stall Management :-
 
-Pre-Requisites :-
-------------------------
+## Pre-Requisites :-
 
 	1. You have to have the following softwares for the successful running of this software; which are
 
@@ -11,8 +9,7 @@ Pre-Requisites :-
 		II) MySQL (Only for the First time), it is downloadable from 'www.mysql.org'.
 
 
-Installation :-
--------------------
+## Installation :-
 	1. There will be two folders namely 'Python Files' and 'EXE files' in the folder 'Source Code'.
 
 	2. The folder 'Python Files' will contain the source code of the software in python language. If you are running the software by the 3rd step mentioned below you have to pre install the following modules :-
@@ -30,12 +27,11 @@ Installation :-
 	6. Then run the file 'main.exe' to start and work on the software.
 
 
-CAUTION :-
-========= 
+## CAUTION :-
 	
 	If you are running the software through running the python files or by running the .exe files ; first run the file named 'Tables_in_mysql'.
 	   
 	The .exe file will take some time to run; so be PATIENT. (ps. I removed the .exe files see the unedited code for more info)
 
-CREDITS :-
-        To an unknown website. Here's [their original code](https://drive.google.com/drive/folders/1-mrKDr_YoaL9Hv5sfOn9cMjiWHj4DxGx)
+### CREDITS :-
+ To an unknown website. Here's [their original code](https://drive.google.com/drive/folders/1-mrKDr_YoaL9Hv5sfOn9cMjiWHj4DxGx)
